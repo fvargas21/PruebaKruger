@@ -178,11 +178,13 @@ docker-compose up -d
 
 La aplicación estará disponible en: **http://localhost:8080**
 
+El swagger estará disponible en: **http://localhost:8080/kevaluacion/swagger-ui.html**
+
 ## 📚 API Documentation
 
 Una vez que la aplicación esté ejecutándose, puedes acceder a la documentación interactiva de la API:
 
-- **Swagger UI**: http://localhost:8080/swagger-ui.html
+- **Swagger UI**: http://localhost:8080/kevaluacion/swagger-ui.html
 - **OpenAPI JSON**: http://localhost:8080/v3/api-docs
 - **Consola H2**: http://localhost:8080/h2-console
 
