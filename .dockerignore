@@ -1,0 +1,52 @@
+# .dockerignore para Kevaluacion
+
+# Archivos de Maven
+target/
+!target/kevaluacion-*.jar
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+
+# Maven wrapper jar (but keep the script)
+.mvn/wrapper/maven-wrapper.jar
+
+# H2 database files
+*.h2.db
